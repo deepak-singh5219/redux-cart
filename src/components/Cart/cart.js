@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import './cart.css';
 
-const cart = () => {
+const Cart = () => {
+  const quantity = 5;
   return (
-    <div>cart</div>
-  )
-}
+    <div className="cartIcon">
+      <h3>Cart: {quantity} Items</h3>
+    </div>
+  );
+};
 
-export default cart
+export default Cart;

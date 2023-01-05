@@ -1,8 +1,11 @@
 import React from 'react'
+import Auth from './components/Auth/auth';
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Auth/>
+    </div>
   )
 }
 

@@ -1,9 +1,23 @@
-import React from 'react'
 
-const layout = () => {
+import React from "react";
+import Header from "../Header/header";
+import Products from "./Products";
+import "./layout.css";
+const Layout = () => {
+  let total = 100;
+
   return (
-    <div>layout</div>
-  )
-}
+    <React.Fragment>
+      <div className="layout">
+        <Header />
+        <Products />
+        <div className="total-price">
+          <h3>Total: ${total}</h3>
+          <button className="orderBtn">Place Order</button>
+        </div>{" "}
+      </div>
+    </React.Fragment>
+  );
+};
 
-export default layout
+export default Layout;
