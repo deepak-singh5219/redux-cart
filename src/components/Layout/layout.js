@@ -1,7 +1,7 @@
 
 import React from "react";
 import Header from "../Header/header";
-import Products from "./Products";
+import Products from "../Products/products";
 import "./layout.css";
 const Layout = () => {
   let total = 100;
